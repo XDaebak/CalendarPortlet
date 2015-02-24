@@ -59,9 +59,14 @@
         <mockito.version>1.8.4</mockito.version>
         
         <!-- The JDBC Driver used by the calendar portlet -->
-        <jdbc.groupId>org.hsqldb</jdbc.groupId>
+        <!--
+		<jdbc.groupId>org.hsqldb</jdbc.groupId>
         <jdbc.artifactId>hsqldb</jdbc.artifactId>
         <jdbc.version>${hsqldb.version}</jdbc.version>
+		-->
+		<jdbc.groupId>mysql</jdbc.groupId>
+		<jdbc.artifactId>mysql-connector-java</jdbc.artifactId>
+		<jdbc.version>5.1.34</jdbc.version>
         
     </properties>
 
